@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  border-radius: 15px;
+  background: linear-gradient(225deg, #f0f0f0, #cacaca);
+  -webkit-box-shadow: -44px 44px 44px #828282, 44px -44px 44px #ffffff;
+          box-shadow: -44px 44px 44px #828282, 44px -44px 44px #ffffff;
+  padding-right: 5rem;
+  margin-top: 10%;
+  height: 40rem;
+  background-color: rgba(224, 224, 224, 0.35);
+  overflow: hidden;
+}
+
+.wrapper .left img {
+  height: 100%;
+}
+
+.wrapper .right {
+  padding-left: 3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .right input {
+  padding: 7px;
+  outline: none;
+  border: none;
+  border-radius: 12px;
+  background: #e0e0e0;
+  -webkit-box-shadow: inset 5px 5px 3px #b5b5b5, inset -5px -5px 3px #ffffff;
+          box-shadow: inset 5px 5px 3px #b5b5b5, inset -5px -5px 3px #ffffff;
+}
+
+.wrapper .right a {
+  text-decoration: none;
+}
+
+.wrapper .right p {
+  text-align: center;
+}
+
+.wrapper .right button {
+  border: 3px;
+  border-radius: 10px;
+  padding: 7px;
+  -webkit-box-shadow: -10px 10px 20px #b3b3b3, 10px -10px 20px #ffffff;
+          box-shadow: -10px 10px 20px #b3b3b3, 10px -10px 20px #ffffff;
+}
+/*# sourceMappingURL=style.css.map */
